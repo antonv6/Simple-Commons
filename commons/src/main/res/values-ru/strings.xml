@@ -138,7 +138,7 @@
     <string name="text_color">Цвет текста</string>
     <string name="primary_color">Основной цвет</string>
     <string name="foreground_color">Foreground color</string>
-    <string name="app_icon_color">App icon color</string>
+    <string name="app_icon_color">Цвет значка приложения</string>
     <string name="restore_defaults">Сбросить к стандартным</string>
     <string name="theme">Тема</string>
     <string name="changing_color_description">Изменение цвета повлечёт переключение на пользовательскую тему.</string>
@@ -229,7 +229,7 @@
     <plurals name="seconds">
         <item quantity="one">%d секунда</item>
         <item quantity="few">%d секунды</item>
-        <item quantity="other">%d секунд</item>
+        <item quantity="many">%d секунд</item>
     </plurals>
     <plurals name="minutes">
         <item quantity="one">%d минута</item>
@@ -268,16 +268,19 @@
 
     <!-- For example: I will be there in 5 minutes -->
     <plurals name="in_seconds">
-        <item quantity="one">%d second</item>
-        <item quantity="other">%d seconds</item>
+        <item quantity="one">%d секунду</item>
+        <item quantity="few">%d секунды</item>
+        <item quantity="many">%d секунд</item>
     </plurals>
     <plurals name="in_minutes">
-        <item quantity="one">%d minute</item>
-        <item quantity="other">%d minutes</item>
+        <item quantity="one">%d минуту</item>
+        <item quantity="few">%d минуты</item>
+        <item quantity="many">%d минут</item>
     </plurals>
     <plurals name="in_hours">
-        <item quantity="one">%d hour</item>
-        <item quantity="other">%d hours</item>
+        <item quantity="one">%d час</item>
+        <item quantity="few">%d часа</item>
+        <item quantity="many">%d часов</item>
     </plurals>
 
     <!-- For example: Event reminder: 3 minutes before -->
@@ -313,7 +316,7 @@
     </plurals>
 
     <!-- For example: Time remaining till the alarm goes off: 6 hours, 5 minutes -->
-    <string name="alarm_goes_off_in">Time remaining till the alarm goes off:\n%s</string>
+    <string name="alarm_goes_off_in">Будильник прозвенит через:\n%s</string>
     <string name="alarm_warning">Please make sure the alarm works properly before relying on it. It could misbehave due to system restrictions related to battery saving.</string>
     <string name="reminder_warning">Please make sure the reminders work properly before relying on them. They could misbehave due to system restrictions related to battery saving.</string>
 
@@ -341,11 +344,11 @@
     <string name="prevent_phone_from_sleeping">Prevent phone from sleeping while the app is in foreground</string>
     <string name="skip_delete_confirmation">Всегда пропускать диалог подтверждения удаления</string>
     <string name="enable_pull_to_refresh">Использовать «потяните-для-обновления» в верхней части экрана</string>
-    <string name="use_24_hour_time_format">Use 24-hour time format</string>
-    <string name="sunday_first">Start week on Sunday</string>
-    <string name="widgets">Widgets</string>
+    <string name="use_24_hour_time_format">использовать 24-часовой формат</string>
+    <string name="sunday_first">Воскресенье — начало недели</string>
+    <string name="widgets">Виджеты</string>
     <string name="use_same_snooze">Всегда использовать один и тот же интервал повтора</string>
-    <string name="snooze_time">Snooze time</string>
+    <string name="snooze_time">Интервал повтора</string>
     <string name="vibrate_on_button_press">Вибрация при нажатии кнопок</string>
 
     <!-- Setting sections -->
